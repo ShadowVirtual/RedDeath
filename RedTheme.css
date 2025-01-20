@@ -1,0 +1,29 @@
+/**
+ * @name MyCustomRedBlackTheme
+ * @description A sleek red and black Discord theme with advanced features.
+ */
+
+/* Root Variables */
+:root {
+    --transparencycolor:        0, 0, 0;
+    --transparencyalpha:        0.3;
+    --messagetransparency:      0.4;
+    --guildchanneltransparency: 0.35;
+    --chatinputtransparency:    0.25;
+    --memberlisttransparency:   0.4;
+    --accentcolor:              255, 0, 0;
+
+    --font:                     "Roboto", "Inter", sans-serif;
+    --textshadow:               rgba(255, 0, 0, 0.15);
+
+    --background:               linear-gradient(135deg, #300000, #600000, #900000);
+    --backgroundblur:           10px;
+
+    --chatbubble-bg:            rgba(255, 0, 0, 0.1);
+    --chatbubble-border:        rgba(255, 0, 0, 0.4);
+    --chatbubble-shadow:        0 4px 10px rgba(0, 0, 0, 0.3);
+
+    --notification-bg:          rgba(255, 0, 0, 0.9);
+    --notification-text:        white;
+    --notification-shadow:      0 0 8px rgba(255, 0, 0, 0.8);
+}
